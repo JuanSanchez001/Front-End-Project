@@ -1,56 +1,66 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title>Math Quiz</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="myScript.js"></script>
-	</head>
-	<body>
-	<h1> Welcome to the Math Quiz.</h1>
-    <h4>Question 1: What is 20+35?</h4>
-		<label><input type="radio" name="q1" value="21"> 21</label><br>
-        <label><input type="radio" name="q1" value="78"> 78</label><br>
-        <label class="correct"><input type="radio" name="q1" value="55"> 55</label><br>
-        <label><input type="radio" name="q1" value="45"> 45</label><br>
-    <br>
-    <button id="check-answer">Check Answer</button>
-    <div id="result1"></div>
-	<br>
-	<br>
-	<br>
-        <h4>Question 2: What is 17+59?</h4>
-        <label><input type="radio" name="q2" value="81"> 81</label><br>
-        <label class="correct"><input type="radio" name="q2" value="76"> 76</label><br>
-        <label><input type="radio" name="q2" value="75"> 75</label><br>
-        <label><input type="radio" name="q2" value="79"> 79</label><br>
-	<br>
-    <button id="check-answer2">Check Answer</button>
-    <div id="result2"></div>
-	<br>
-	<br>
-	<br>
-	    <h4>Question 3: What is 3x17?</h4>
-        <label><input type="radio" name="q3" value="36"> 36</label><br>
-        <label><input type="radio" name="q3" value="68"> 68</label><br>
-        <label><input type="radio" name="q3" value="49"> 49</label><br>
-	    <label class="correct"><input type="radio" name="q3" value="51"> 51</label><br>
-    <br>
-    <button id="check-answer3">Check Answer</button>
-    <div id="result3"></div>
-	<br>
-	<br>
-	<br>
-	 <h4>Question 4: What is 28x7?</h4>
-        <label class="correct"><input type="radio" name="q4" value="196"> 196 </label><br>
-        <label><input type="radio" name="q4" value="92"> 92</label><br>
-        <label><input type="radio" name="q4" value="178"> 178</label><br>
-	    <label><input type="radio" name="q4" value="214"> 214</label><br>
-    <br>
-    <button id="check-answer4">Check Answer</button>
-    <div id="result4"></div>
-	<br>
-	<br>
-	<br>
-	</body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 5 Carousel Test</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="triassic.jpg" class="d-block w-100" alt="First">
+		<div class="carousel-caption">
+		<p>Triassic Dinosaur Fossil</p>
+		<a href= "https://www.nps.gov/subjects/fossils/images/pefo-Giant-reptile-cast-diorama-NPS-Hallie-Larsen.jpg">https://www.nps.gov/subjects/fossils/images/pefo-Giant-reptile-cast-diorama-NPS-Hallie-Larsen.jpg</a>
+		</div>
+      </div>
+      <div class="carousel-item">
+        <img src="fossil.jpg" class="d-block w-100" alt="Second">
+		<div class="carousel-caption">
+		<p>Jurassic Dinosaur fossils</p>
+		<a href= "https://www.fossilera.com/p/484/jurassic-world-fossils.jpg">https://www.fossilera.com/p/484/jurassic-world-fossils.jpg</a>
+		</div>
+      </div>
+      <div class="carousel-item">
+        <img src="cretaceous.jpg" class="d-block w-100" alt="Third">
+
+		<div class="carousel-caption">
+		<p>Dinosaurs from the Cretaceous Period</p>
+				<a href= "https://gizmodo.com/app/uploads/2020/09/bunethlcpmlouhmz1ik6.jpg">https://gizmodo.com/app/uploads/2020/09/bunethlcpmlouhmz1ik6.jpg</a>
+		</div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
