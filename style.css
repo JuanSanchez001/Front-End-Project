@@ -8,8 +8,17 @@ h2 {
 	text-align: center;
 }
 
+#image1 {
+	float: right;
+	margin-left: 15px;
+	width: 400px;
+	height: 400px;
+}
+
+
 .para1 {
 	text-align:left;
+	font-size: 20px;
 }
 
 
