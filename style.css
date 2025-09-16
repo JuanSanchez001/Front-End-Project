@@ -1,20 +1,11 @@
-body{
-	background-color: grey;
+.carousel-item {
+  height: 900px;           /* Set to your desired height */
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;        /* Ensures image covers carousel area without stretching */
 }
 
-h1{
-	font-size: 50px;
-	margin-left: 35%;
-	color: azure;
-}
-h4{
-	margin-left:45%;
-}
-
-label{
-	margin-left:45%;
-}
-
-button{
-	margin-left: 45%;
+a:link {
+  color: azure;
 }
