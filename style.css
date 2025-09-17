@@ -8,6 +8,20 @@ h2 {
 	text-align: center;
 }
 
+#image3 {
+	float: left;
+	margin-right: 15px;
+	width: 800px;
+	height: 500px;
+}
+
+#image2 {
+	float: right;
+	margin-left: 15px;
+	width: 800px;
+	height: 500px;
+}
+
 #image1 {
 	float: right;
 	margin-left: 15px;
