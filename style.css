@@ -27,6 +27,12 @@ margin-left: 15px;
 width: 400px;
 height: 400px;
 }
+#image2 {
+float: left;
+margin-right: 15px;
+width: 400px;
+height: 400px;
+}
 
 
 .para1 {
@@ -34,11 +40,12 @@ height: 400px;
 text-align:left;
 font-size: 20px;
 line-height: 2;  
+font-family: "Helvetica";
 }
 
 .para2 {
 	background-color: SeaGreen;
-text-align:left;
+text-align:right;
 font-size: 20px;
 }
 .para3{
@@ -104,32 +111,55 @@ overflow: hidden;
 background-color: #f1f1f1;
 }
 
-.facts_1 {
-	background-color: SeaGreen;
-  display: none;
-  color: blue;
-  font-size: 25px;
- outline-style: solid;
+
 }
+
 .facts_2 {
 	background-color: SeaGreen;
-  display: none;
-  color: blue;
+ float: right;
+ margin-left:50%;
+  color: white;
   font-size: 25px;
+text-align:right;
+
+
 }
 .facts_3 {
 	background-color: SeaGreen;
   display: none;
-  color: blue;
+  color: white;
   font-size: 25px;
 }
-.ulp{
-	background-color: 5px
+#ulp1{
+	display:none;
+	background-color: Grey;
 	color: white;
 	font-size: 25px;
-	font-family: "Lucida Console", "Courier New", monospace;
+	font-family: "Garamond";
+}
+#ulp2{
+	display:none;
+	float:right;
+	margin-right:80px;
+	background-color: Grey;
+	color: white;
+	font-size: 25px;
+	font-family: "Garamond";
+	height:350px;
 }
 
 #img1c{
 	color: white;
+    font-family: "Roman";
+	margin-left: 73%;
+}
+#img2c{
+	color: white;
+    font-family: "Roman";
+	margin-left: 73%;
+}
+
+
+#pclick{
+	font-size: 20px;
 }

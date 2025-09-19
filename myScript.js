@@ -1,6 +1,10 @@
 $(document).ready(function() {
 $("#image1").click(function(){
-    $(".facts_1").toggle();
+    $("#ulp1").toggle();
+  });
+  
+  $("#image2").click(function(){
+    $("#ulp2").toggle();
   });
 });
  
