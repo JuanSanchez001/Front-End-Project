@@ -8,6 +8,10 @@ h2 {
 	text-align: center;
 }
 
+#p2 {
+	text-align: center;
+}
+
 #image3 {
 	float: left;
 	margin-right: 15px;
@@ -94,4 +98,12 @@ ul li a:hover {
 	display: none;
 	overflow: hidden;
 	background-color: #f1f1f1;
+}
+
+h1{
+	text-align: center;
+}
+
+#owner1 {
+	margin-left: 760px;
 }
