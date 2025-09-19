@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+$("#image1").click(function(){
+    $(".facts_1").toggle();
+  });
 });
  
 document.addEventListener("DOMContentLoaded", function() {
@@ -17,5 +19,4 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
-  
-  
+

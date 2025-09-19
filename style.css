@@ -1,4 +1,5 @@
 .carousel-item {
+	 background-color: SeaGreen !important;
   height: 900px;           /* Set to your desired height */
 }
 .carousel-item img {
@@ -11,7 +12,7 @@ a:link {
 }
 
 body{
-background-color: grey;
+	background-color: SeaGreen;
 margin: 0;
 padding: 0;
 }
@@ -29,10 +30,22 @@ height: 400px;
 
 
 .para1 {
+	background-color: SeaGreen;
+text-align:left;
+font-size: 20px;
+line-height: 2;  
+}
+
+.para2 {
+	background-color: SeaGreen;
 text-align:left;
 font-size: 20px;
 }
-
+.para3{
+	background-color: SeaGreen;
+text-align:left;
+font-size: 20px;
+}
 
 .home1 {
 text-align:center;
@@ -89,4 +102,34 @@ padding: 0 18px;
 display: none;
 overflow: hidden;
 background-color: #f1f1f1;
+}
+
+.facts_1 {
+	background-color: SeaGreen;
+  display: none;
+  color: blue;
+  font-size: 25px;
+ outline-style: solid;
+}
+.facts_2 {
+	background-color: SeaGreen;
+  display: none;
+  color: blue;
+  font-size: 25px;
+}
+.facts_3 {
+	background-color: SeaGreen;
+  display: none;
+  color: blue;
+  font-size: 25px;
+}
+.ulp{
+	background-color: 5px
+	color: white;
+	font-size: 25px;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#img1c{
+	color: white;
 }
