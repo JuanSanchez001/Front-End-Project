@@ -17,6 +17,8 @@ h2 {
 	margin-right: 15px;
 	width: 800px;
 	height: 500px;
+	padding: 50px;
+	border-style: dashed;
 }
 
 #image2 {
@@ -24,6 +26,7 @@ h2 {
 	margin-left: 15px;
 	width: 800px;
 	height: 500px;
+	padding: 50px;
 }
 
 #image1 {
@@ -79,8 +82,8 @@ ul li a:hover {
 }
 
 .collapsible{
-	background-color: #444;
-	color: ;
+	background-color: #555;
+	color: white;
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
@@ -91,7 +94,7 @@ ul li a:hover {
 }
 
 .active, .collapsible:hover {
-	background-color: #555;
+	background-color: #444;
 }
 
 .content {
@@ -106,5 +109,8 @@ h1{
 }
 
 #owner1 {
-	margin-left: 760px;
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
 }
