@@ -10,6 +10,8 @@ h2 {
 
 #p2 {
 	text-align: center;
+	padding: 50px;
+	border-style: solid;
 }
 
 #image3 {
@@ -36,9 +38,6 @@ h2 {
 	height: 400px;
 }
 
-.para2 {
-	margin-left:1550px;
-}
 
 .para1 {
 	text-align:left;
