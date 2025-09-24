@@ -15,10 +15,19 @@ document.addEventListener("DOMContentLoaded", function() {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
       if (content.style.display === "block") {
-        content.style.display = "none";
+        content.style.display = "block";
+		let anim = content.querySelector('.timeline-animate');
+        if(anim) anim.classList.remove('active');
+		content.style.display = "none";
       } else {
         content.style.display = "block";
+		 setTimeout(function(){
+          let anim = content.querySelector('.timeline-animate');
+          if(anim) anim.classList.add('active');
+        }, 10);
+		
       }
+	  
     });
   }
 });

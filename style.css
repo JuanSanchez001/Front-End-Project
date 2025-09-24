@@ -33,10 +33,11 @@ padding: 10px;
 
 }
 #image2 {
-float: left;
-margin-right: 15px;
-width: 400px;
-height: 400px;
+  float: left;
+  margin-right: 15px;
+  width: 400px;
+  height: 400px;
+
 }
 
 
@@ -95,7 +96,7 @@ background-color: #111111;
 }
 
 .collapsible{
-background-color: #444;
+background-color: #555;
 color: ;
 cursor: pointer;
 padding: 18px;
@@ -107,26 +108,24 @@ font-size: 15px;
 }
 
 .active, .collapsible:hover {
-background-color: #555;
+background-color: grey;
 }
 
 .content {
 padding: 0 18px;
-display: ;
+display: none ;
 overflow: hidden;
 background-color: #f1f1f1;
 }
 
-
-}
-
 .facts_2 {
-	background-color: SeaGreen;
- float: right;
- margin-left:50%;
+float: left;
+  margin-left: 0;
+  background-color: SeaGreen;
   color: white;
   font-size: 25px;
-text-align:right;
+  text-align: left;
+  width: 100%; /* Or a specific width if needed */
 
 
 }
@@ -144,16 +143,20 @@ text-align:right;
 	font-family: "Garamond";
 }
 #ulp2{
-	display:none;
-	float:right;
-	margin-right:80px;
-	background-color: Grey;
-	color: white;
-	font-size: 25px;
-	font-family: "Garamond";
-	height:350px;
+	  float: right;
+  margin-top: 25px;
+  background-color: Grey;
+  color: white;
+  font-size: 25px;
+  font-family: "Garamond";
+  height: 350px;
+  display: none; /* ensure visible */
 }
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 #img1c{
 	color: white;
     font-family: "Roman";
@@ -162,8 +165,7 @@ text-align:right;
 #img2c{
 	color: blue;
     font-family: "Roman";
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: 70px;
 }
 
 
@@ -183,20 +185,34 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
+}
+
+.timeline-animate {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: transform 0.6s cubic-bezier(0.32,1.25,0.52,1.25), opacity 0.6s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timeline-animate.active {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
+  width: 15px;
+  height: 1000px;
   background-color: white;
-  top: 0;
-  bottom: 0;
+  top: 10px;
   left: 50%;
-  margin-left: -3px;
+  margin-left: -15px;
+  
 }
 
 /* Container around content */
@@ -211,12 +227,12 @@ body {
 .timeline-container::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
+  width: 30px;
+  height: 30px;
+  right: -5px;
   background-color: grey;
   border: 4px solid #FF9F55;
-  top: 15px;
+  top: 0;
   border-radius: 50%;
   z-index: 1;
 }
@@ -276,7 +292,7 @@ body {
 @media screen and (max-width: 600px) {
   /* Place the timelime to the left */
   .timeline::after {
-  left: 31px;
+  left: 20px;
   }
   
   /* Full-width containers */
