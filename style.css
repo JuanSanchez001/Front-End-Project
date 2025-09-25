@@ -30,18 +30,20 @@ padding: 10px;
  display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 
 }
 #image2 {
   width: 400px;
   height: 400px;
   margin: 0;
-  float: left; /* Remove float */
+  float: left; 
+  padding: 10px;
 }
 
 .para1 {
 	background-color: SeaGreen;
-text-align:left;
+text-align: center;
 font-size: 20px;
 line-height: 2;  
 font-family: "Helvetica";
@@ -50,7 +52,8 @@ margin: auto;
 
 .para2 {
 	background-color: SeaGreen;
-text-align:right;
+	line-height: 2;
+text-align: center;
 font-size: 20px;
 }
 .para3{
@@ -129,7 +132,7 @@ flex-direction: row-reverse;
 }
 
 }
-.facts_3 {
+.facts_1 {
 	background-color: SeaGreen;
   display: none;
   color: white;
