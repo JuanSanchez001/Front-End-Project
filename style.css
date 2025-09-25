@@ -1,5 +1,5 @@
 .carousel-item {
-	 background-color: SeaGreen !important;
+background-color: SeaGreen !important;
   height: 900px;           /* Set to your desired height */
 }
 .carousel-item img {
@@ -33,13 +33,11 @@ padding: 10px;
 
 }
 #image2 {
-  float: left;
-  margin-right: 15px;
   width: 400px;
   height: 400px;
-
+  margin: 0;
+  float: left; /* Remove float */
 }
-
 
 .para1 {
 	background-color: SeaGreen;
@@ -120,13 +118,15 @@ background-color: #f1f1f1;
 
 .facts_2 {
 float: left;
-  margin-left: 0;
+display: flex;
+flex-direction: row-reverse;
+  align-items: flex-start; /* aligns items vertically at the start */
+  gap: 20px; /* space between image and list */
   background-color: SeaGreen;
   color: white;
   font-size: 25px;
   text-align: left;
-  width: 100%; /* Or a specific width if needed */
-
+}
 
 }
 .facts_3 {
@@ -142,21 +142,20 @@ float: left;
 	font-size: 25px;
 	font-family: "Garamond";
 }
-#ulp2{
-	  float: right;
-  margin-top: 25px;
+
+#ulp2 {
+float: left;
+line-height: 3;  
   background-color: Grey;
   color: white;
   font-size: 25px;
   font-family: "Garamond";
-  height: 350px;
-  display: none; /* ensure visible */
+  margin: 0;
+  padding: 10px 20px;
+  list-style-type: disc;
+  display: none; /* Unhide if needed */
 }
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 #img1c{
 	color: white;
     font-family: "Roman";
