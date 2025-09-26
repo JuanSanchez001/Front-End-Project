@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HierarchyData</key>
+	<array>
+		<string>06C0F153-00E6-4F2F-9761-A68E2100F641</string>
+	</array>
+	<key>ProjectItems</key>
+	<dict>
+		<key>06C0F153-00E6-4F2F-9761-A68E2100F641</key>
+		<dict>
+			<key>ItemData</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va8QCAAAAAAQQMAAAAPleaopVBIN7RdCcbwPmlKT9
+				rzr3kSWUMN+0sHbDAOvlwAEAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAALAAAAAQEAAGp1YW5zYW5jaGV6
+				AAcAAAABAQAARGVza3RvcAARAAAAAQEAAEZyb250LUVu
+				ZC1Qcm9qZWN0AAAAEAAAAAEGAAAQAAAAIAAAADQAAABE
+				AAAACAAAAAQDAABfQgAAAAAAAAgAAAAEAwAAHWwAAAAA
+				AAAIAAAABAMAACJsAAAAAAAACAAAAAQDAACpgncAAAAA
+				ABAAAAABBgAAeAAAAIgAAACYAAAAqAAAAAgAAAAABAAA
+				QcdCaNWFyVAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
+				AAAAAAAAAAgAAAAEAwAAAgAAAAAAAAAEAAAAAwMAAPUB
+				AAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRv
+				c2ggSEQIAAAABAMAAAAAhxE5AAAACAAAAAAEAABBxyiE
+				hoAAACQAAAABAQAAMjk0NTI5NUYtQTg3RS00RDUxLTlC
+				QkMtM0E5OTExQUVEQUUwGAAAAAECAACBAAAAAQAAAO8T
+				AAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUA
+				AMwAAAD+////AQAAAAAAAAAQAAAABBAAAGAAAAAAAAAA
+				BRAAALgAAAAAAAAAEBAAAOAAAAAAAAAAQBAAANAAAAAA
+				AAAAAiAAAKwBAAAAAAAABSAAABwBAAAAAAAAECAAACwB
+				AAAAAAAAESAAAGABAAAAAAAAEiAAAEABAAAAAAAAEyAA
+				AFABAAAAAAAAICAAAIwBAAAAAAAAMCAAALgBAAAAAAAA
+				AcAAAAABAAAAAAAAEcAAACAAAAAAAAAAEsAAABABAAAA
+				AAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/juansanchez/Desktop/Front-End-Project/</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>RelativePath</key>
+				<string>./</string>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+			<key>ItemName</key>
+			<string>Front-End-Project</string>
+			<key>ItemType</key>
+			<string>FolderReference</string>
+		</dict>
+	</dict>
+	<key>com.barebones.DocumentFormatVersion</key>
+	<integer>5</integer>
+	<key>com.barebones.DocumentType</key>
+	<string>Project</string>
+</dict>
+</plist>
