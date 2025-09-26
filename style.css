@@ -138,7 +138,7 @@ ul li a:hover {
 	width: 20%;
 	margin-left: auto;
 	margin-right: auto;
-	
+	display: none;
 	overflow: hidden;
 	background-color: #f1f1f1;
 }
