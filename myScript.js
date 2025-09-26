@@ -2,7 +2,6 @@ $(document).ready(function() {
 	$("#image1").click(function(){
     $("#ulp1").toggle();
   });
-  
   	$("#image2").click(function(){
     $("#ulp2").toggle();
   });
