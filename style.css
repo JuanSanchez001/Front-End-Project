@@ -43,6 +43,19 @@ h2, p {
     padding: 10px;
 }
 
+#image4{
+	float: right;
+	margin-left: 15px;
+	width: 600px;
+	height: 400px;
+	padding: 10px;
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
 #image2 {
   width: 400px;
   height: 400px;
@@ -138,7 +151,6 @@ ul li a:hover {
 	width: 20%;
 	margin-left: auto;
 	margin-right: auto;
-	display: none;
 	overflow: hidden;
 	background-color: #f1f1f1;
 }
