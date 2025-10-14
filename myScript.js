@@ -7,11 +7,11 @@ $(document).ready(function() {
   });
 });
  
-document.addEventListener("DOMContentLoaded", function() {
-  var coll = document.getElementsByClassName("collapsible");
-  for (let i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-  this.classList.toggle("active");
+$(document).ready(function(){
+  $("collapsible").click(function(){
+    $("p").toggle();
+  });
+});
   var content = this.nextElementSibling;
   if (content.style.display === "block") {
     content.style.display = "block";
