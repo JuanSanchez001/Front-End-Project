@@ -6,10 +6,6 @@ $(document).ready(function() {
     $("#ulp2").toggle();
   });
 });
-
-$(document).ready(function() {
-
-});
  
 document.addEventListener("DOMContentLoaded", function() {
   var coll = document.getElementsByClassName("collapsible");
