@@ -25,11 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   
 
-$(document).ready(function(){
-  $("collapsible").click(function(){
-    $("p").toggle();
-  });
-});
+
   var content = this.nextElementSibling;
   if (content.style.display === "block") {
     content.style.display = "block";
